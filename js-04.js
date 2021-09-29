@@ -10,9 +10,14 @@
     console.log(queueBank);
 
     // Part 3
-    queueBank.splice(1, 0, "Renata");
-    queueBank.push('Elena');
-    console.log(queueBank);
+    // queueBank.splice(1, 0, "Renata");
+    // queueBank.push('Elena');
+    // console.log(queueBank);
+
+    // using slice instead of splice to create a new list
+    const newQueueBank = [queueBank[0], "Renata", ...queueBank.slice(1,)];
+    newQueueBank.push('Elena');
+    console.log(newQueueBank);
 }
 
 {// Exercise 2
