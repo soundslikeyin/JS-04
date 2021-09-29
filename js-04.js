@@ -27,7 +27,7 @@
 
     // part 1
     let xValue = 5;
-    while (xValue > 0) {
+    while (xValue >= 0.5) {
         console.log(xValue);
         xValue -= 0.5;
     }
