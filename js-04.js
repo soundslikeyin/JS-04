@@ -6,8 +6,6 @@
 
     // Part 2
     queueBank.push("Sara", "Augustin")
-    console.log(queueBank);
-
     queueBank.shift();
     console.log(queueBank);
 
