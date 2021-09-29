@@ -16,10 +16,19 @@
 }
 
 {// Exercise 2
-    const starList = [];
-    for (i = 0; i < 5; i++) {
-        starList.push("*");
-        console.log(starList);
+    // const starList = [];
+    // for (i = 0; i < 5; i++) {
+    //     starList.push("*");
+    //     console.log(starList);
+    // }
+
+    // using nested loops
+    for ( i=1; i<=5; i++) {
+        let line = "";        
+        for (n=0; n<i; n++) {
+            line += "*"; 
+        }	
+        console.log(line);
     }
 }
 
