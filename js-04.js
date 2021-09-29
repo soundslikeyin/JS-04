@@ -16,22 +16,17 @@
 }
 
 {// Exercise 2
-
-
     const starList = [];
-
     for (i = 0; i < 5; i++) {
         starList.push("*");
         console.log(starList);
     }
-
 }
 
 { // Exercise 3
 
     // part 1
-
-    let xValue=5;
+    let xValue = 5;
     while (xValue > 0) {
         console.log(xValue);
         xValue -= 0.5;
@@ -40,7 +35,7 @@
     // part 2
     let numA = 0;
     while (numA < 100) {
-		numA++;
+        numA++;
         if ((numA % 2) != 0) {
             console.log(numA);
         }
@@ -60,6 +55,4 @@
         i++;
     }
     console.log(sum);
-
-
 }
